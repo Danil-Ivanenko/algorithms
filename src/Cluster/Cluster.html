@@ -30,17 +30,25 @@
     <!-- /.hero -->
     <div class="name-page">
         <div class="container">
-            <strong class="title">Алгоритм кластеризации</strong>
+            <strong class="title">Алгоритм кластеризации(dbscan)</strong>
+                <div>
+                    <canvas></canvas>
+                    <script src="/src/Cluster/testCanvasPoints.js"></script>
+                        <div class="buttons">
+                            <button onclick="dbscan(points,70,4)">Найти кластеры</button>
+                            <button onclick="clearCanvas()">Сбросить поле</button>
+                            
+                        </div>
+
+                        
+                </div>
         </div>
         <!-- /.container -->
     </div>
     <!-- /.name-page -->
 
 </body>
-<body>
-    <div>
-    <canvas></canvas>
-    <script src="/src/Cluster/testCanvasPoints.js"></script>
-    </div>
-</body>
+
+
+
 </html>
